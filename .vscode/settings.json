@@ -23,5 +23,8 @@
   "editor.foldingStrategy": "auto",
   "editor.showFoldingControls": "always",
   "editor.folding": true,
-  "editor.foldingImportsByDefault": true
+  "editor.foldingImportsByDefault": true,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  }
 }
