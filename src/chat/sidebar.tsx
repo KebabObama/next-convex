@@ -42,7 +42,7 @@ export const Sidebar = () => {
 };
 
 const Footer = () => {
-  const user = useQuery(api.user.getProfile, {});
+  const user = useQuery(api.users.getProfile, {});
   const { replace } = useRouter();
   const { signOut } = useAuthActions();
 
