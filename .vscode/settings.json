@@ -1,0 +1,27 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.next": true,
+    "**/node_modules/": true,
+    ".agents": true,
+    ".convex": true,
+    ".claude": true,
+    "**/_generated": true,
+    "**/next-env.d.ts": true,
+    "skills-lock.json": true,
+    "bun.lock": true,
+    "tsconfig.tsbuildinfo": true
+  },
+  "editor.defaultFormatter": "biomejs.biome",
+  "biome.enabled": true,
+  "biome.suggestInstallingGlobally": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "files.associations": {
+    "**.css": "tailwindcss"
+  },
+  "editor.foldingStrategy": "auto",
+  "editor.showFoldingControls": "always",
+  "editor.folding": true,
+  "editor.foldingImportsByDefault": true
+}

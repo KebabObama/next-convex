@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "biomejs.biome",
+    "formulahendry.auto-rename-tag",
+    "aaron-bond.better-comments",
+    "ecmel.vscode-html-css",
+    "yoavbls.pretty-ts-errors",
+    "hvuad.template-string-converter-edition",
+    "bradlc.vscode-tailwindcss"
+  ]
+}
