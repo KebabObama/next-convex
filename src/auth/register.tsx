@@ -6,8 +6,8 @@ import { ExternalLink } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
-import { Button } from "../ui/button";
-import { Input } from "../ui/input";
+import { Button } from "@/ui/button";
+import { Input } from "@/ui/input";
 import { type RegistrationData, RegistrationSchema } from "./types";
 
 export const Register = () => {

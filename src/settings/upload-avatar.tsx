@@ -6,12 +6,12 @@ import { Camera } from "lucide-react";
 import { type ChangeEvent, useState } from "react";
 import Cropper, { type Area } from "react-easy-crop";
 import { toast } from "sonner";
+import { api } from "@/convex/_generated/api";
 import { UserAvatar } from "@/layout/user-avatar";
 import { getCroppedImg } from "@/settings/actions";
 import { Button } from "@/ui/button";
 import { Dialog } from "@/ui/dialog";
 import { Slider } from "@/ui/slider";
-import { api } from "../../convex/_generated/api";
 //#endregion
 
 export const AvatarUpload = () => {
