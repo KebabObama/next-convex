@@ -7,7 +7,7 @@
   },
   "files": {
     "ignoreUnknown": true,
-    "includes": ["**", "*/convex/**", "!node_modules", "!.next", "!dist", "!build", "!*/_generated/*"]
+    "includes": ["**", "*/convex/**", "!node_modules", "!.next", "!dist", "!build", "!*/_generated/*", "!**/*.css"]
   },
   "formatter": {
     "enabled": true,
@@ -23,9 +23,7 @@
     "rules": {
       "recommended": true,
       "nursery": {},
-      "suspicious": {
-        "noUnknownAtRules": "off"
-      }
+      "suspicious": { "noUnknownAtRules": "off" }
     },
     "domains": {
       "next": "recommended",
